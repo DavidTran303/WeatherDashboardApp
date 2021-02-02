@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.row-lg {
+  background-color: grey;
+}
+
+.col {
+  border-style: solid;
+}
