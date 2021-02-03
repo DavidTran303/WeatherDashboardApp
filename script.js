@@ -13,8 +13,16 @@ function citySearch(){
     document.getElementById("current-city").innerHTML= "Current City: " + res.name
 
     document.getElementById("current-temp").textContent=Math.floor(res.main.temp) +  " °F"
+
+   
   }) 
 }
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "Hello World";
+});
+
+
 
 function weatherCast(){
   var apiKey = "378576e029da0c8c2b9ad196519798cf"
