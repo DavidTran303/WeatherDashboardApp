@@ -1,26 +1,20 @@
-.container-fluid {
+.container1 {
   border-style: solid;
+  width: 18rem;
+  height: 50rem;
+  float: left;
+  background-color: #c8c8c8;
 }
 
-.row-1 {
-  border-style: solid;
-  align-items: center;
+.container2 {
   margin: auto;
-  width: 50%;
-  height: 8rem;
+  width: 25rem;
+  height: 18rem;
   border: 3px solid black;
-  padding: 10px;
+  float: center;
+  text-align: auto;
 }
 
-h1 {
-  text-align: center;
-  color: blue;
-}
-
-.row-lg {
-  background-color: grey;
-}
-
-.col {
-  border-style: solid;
+.row .col {
+  border: 2px solid black;
 }
